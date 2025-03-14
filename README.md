@@ -1,6 +1,6 @@
 # MP3 Environment and Localization Enhancements
 
-This document details the improvements and modifications made to the MP3 environment to enhance the performance of Monte Carlo Localization (MCL) for the autonomous vehicle project (SP25 version).
+This document details the modifications made to the MP3 environment for the autonomous vehicle project (SP25 version).
 
 ## Environment Enhancements
 
