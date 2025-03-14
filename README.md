@@ -33,4 +33,4 @@ To ensure collision-free navigation in the enhanced environment:
 ## Another locolization tryout: Vertical edge detection using camera
 - Implemented camera_processing script for extracting vertical edge information in the environment
 - Added testing scripts for edge detection functionality
-
+- Note: Not working ideally since lack of feature information in gazebo ECEB environment. Need to update more features to extract
