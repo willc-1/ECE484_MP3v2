@@ -6,11 +6,7 @@ This document details the improvements and modifications made to the MP3 environ
 
 To improve the convergence speed and accuracy of the particle filter localization algorithm, we modified the simulation environment to be less symmetrical and provide more unique features for localization:
 
-- **Added diverse obstacles**: Incorporated obstacles with various shapes and orientations throughout the environment to create a more feature-rich space.
-- **Introduced rotated objects**: Added rotated walls and boxes to provide unique angular measurements for the LIDAR sensors.
-- **Created asymmetrical structures**: Designed L-shaped, Z-shaped, and other non-symmetrical structures to break environmental symmetry.
-- **Added small obstacles near edges**: Placed distinctive features near the environment boundaries to help with localization when near walls.
-- **Implemented a central landmark**: Added a distinctive cross-shaped structure in the center of the environment as a reference point.
+- **New obstacles introduced**: rotated walls and boxes, L-shaped, Z-shaped, and other non-symmetrical structures, distinctive features near the environment boundaries,cross-shaped structure in the center of the environment as a reference point
 These changes help the particle filter converge faster by providing unique sensor readings at different positions in the environment.
 
 ## SDF Reader Improvements
