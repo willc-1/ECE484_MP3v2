@@ -1,7 +1,6 @@
-# ECE484_MP3v2
 # MP3 Environment and Localization Enhancements
 
-This document details the improvements and modifications made to the MP3 environment to enhance the performance of Monte Carlo Localization (MCL) for the autonomous vehicle project.
+This document details the improvements and modifications made to the MP3 environment to enhance the performance of Monte Carlo Localization (MCL) for the autonomous vehicle project (SP25 version).
 
 ## Environment Enhancements
 
@@ -30,4 +29,8 @@ To ensure collision-free navigation in the enhanced environment:
 - **Updated waypoint system**: Modified the `vehicle.py` waypoint list to avoid collisions with the new obstacles.
 - **Path recording tool**: Created a tool to record vehicle positions while manually driving through the environment.
 - **Environment verification**: Implemented visualization tools to verify the correct processing of the updated environment.
+
+## Another locolization tryout: Vertical edge detection using camera
+- Implemented camera_processing script for extracting vertical edge information in the environment
+- Added testing scripts for edge detection functionality
 
