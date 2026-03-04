@@ -30,3 +30,5 @@ To ensure collision-free navigation in the enhanced environment:
 - Implemented camera_processing script for extracting vertical edge information in the environment
 - Added testing scripts for edge detection functionality
 - Note: Not working ideally since lack of feature information in gazebo ECEB environment. Need to update more features to extract. Forks for implementing this functionality are welcome!
+
+Note: The current MP3 settings is outdated, the new mp3 is a drone vision locolizations task. Please refer to https://safeautonomy-illinois.github.io/ece484-site/spring-2026/assignments/
